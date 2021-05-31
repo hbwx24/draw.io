@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" modified="2021-05-12T04:11:38.711Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="0MuBWw-K8MmenW7NEk-W" version="14.6.6" type="github">
+  <diagram id="jq5yFPuxoPh_Z4kW5QYQ" name="Page-1">
+    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FCAmN73nzQrLmGXYLq5s-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FCAmN73nzQrLmGXYLq5s-1" target="FCAmN73nzQrLmGXYLq5s-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FCAmN73nzQrLmGXYLq5s-1" value="数据结构整合" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="136" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FCAmN73nzQrLmGXYLq5s-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FCAmN73nzQrLmGXYLq5s-2" target="FCAmN73nzQrLmGXYLq5s-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FCAmN73nzQrLmGXYLq5s-2" value="计算架构升级" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="136" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FCAmN73nzQrLmGXYLq5s-3" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FCAmN73nzQrLmGXYLq5s-2" target="FCAmN73nzQrLmGXYLq5s-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="176" y="340" as="sourcePoint" />
+            <mxPoint x="226" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCAmN73nzQrLmGXYLq5s-4" value="互相依赖" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FCAmN73nzQrLmGXYLq5s-3">
+          <mxGeometry x="-0.1" y="-1" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCAmN73nzQrLmGXYLq5s-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FCAmN73nzQrLmGXYLq5s-5" target="FCAmN73nzQrLmGXYLq5s-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FCAmN73nzQrLmGXYLq5s-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FCAmN73nzQrLmGXYLq5s-5" target="FCAmN73nzQrLmGXYLq5s-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FCAmN73nzQrLmGXYLq5s-5" value="手写可执行Demo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="316" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FCAmN73nzQrLmGXYLq5s-8" value="Tensor整合后，需要有FunctionBase的体系支持，才能使用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="190" width="380" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FCAmN73nzQrLmGXYLq5s-9" value="Funcition作为基础计算单元，Tensor是Funtion的输入输出" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="430" width="380" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FCAmN73nzQrLmGXYLq5s-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FCAmN73nzQrLmGXYLq5s-11" target="FCAmN73nzQrLmGXYLq5s-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FCAmN73nzQrLmGXYLq5s-11" value="自动反向&lt;br&gt;（自动代码生成）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="496" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FCAmN73nzQrLmGXYLq5s-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FCAmN73nzQrLmGXYLq5s-12" target="FCAmN73nzQrLmGXYLq5s-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FCAmN73nzQrLmGXYLq5s-12" value="API交互&lt;br&gt;（自动代码生成）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="496" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FCAmN73nzQrLmGXYLq5s-15" value="全局可推广Demo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="666" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FCAmN73nzQrLmGXYLq5s-18" value="可并行推进" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="516" y="310" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
