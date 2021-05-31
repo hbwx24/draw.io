@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-26T04:07:24.133Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="TXHyitqEd8lBdFImC6UB" version="14.6.12" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-05-31T08:47:12.043Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="VQB9xNVwngxnTcslqK1F" version="14.7.2" type="github" pages="4">
   <diagram id="xvaDDSzPtduDtoku5TKO" name="save-result">
-    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="985" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -111,6 +111,33 @@
         </mxCell>
         <mxCell id="DGd8fxGHTvp8f4uAHh83-2" value="解决：统一为paddle官方推荐的标准文件后缀" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#009900;" parent="1" vertex="1">
           <mxGeometry x="30" y="590" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9OT5cRdGl8_g68vuxQfi-1" value="输入一个path str&lt;br&gt;（例如：输入mnist）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9OT5cRdGl8_g68vuxQfi-2" value="save保存得到一个结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="690" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9OT5cRdGl8_g68vuxQfi-3" value="save保存得到多个结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="770" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9OT5cRdGl8_g68vuxQfi-4" value="paddle.save" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="690" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9OT5cRdGl8_g68vuxQfi-5" value="&lt;p style=&quot;line-height: 190%&quot;&gt;&amp;nbsp; paddle.jit.save&lt;br&gt;&amp;nbsp; paddle.Model().save&lt;br&gt;&amp;nbsp; paddle.static.save&lt;br&gt;&amp;nbsp; paddle.static.save_inference_model&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="440" y="770" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9OT5cRdGl8_g68vuxQfi-6" value="&lt;b style=&quot;line-height: 150%&quot;&gt;mnist.pdmodel&lt;br&gt;mnist.pdparams&lt;br&gt;mnist.pdiparams&lt;br&gt;mnist.pdopt&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="780" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9OT5cRdGl8_g68vuxQfi-7" value="仅用不同的后缀区&lt;br&gt;分多个存储结果&lt;br&gt;&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="670" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9OT5cRdGl8_g68vuxQfi-8" value="&lt;b&gt;存储文件名：mnist，&lt;br&gt;建议添加标准后缀，输入mnist.params或者mnist.pdopt等&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="680" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9OT5cRdGl8_g68vuxQfi-9" value="一个path与存储&lt;br&gt;结果对应，无歧义&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="545" width="150" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
