@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-06-04T07:07:17.303Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="7Lcecx3MvYYmbzyJD9Tz" version="14.7.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-04T07:08:46.155Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="L8O2TKllIdUXUKCeDd5R" version="14.7.2" type="github" pages="4">
   <diagram id="uEBJ2LFbih4l7-N4XgLi" name="Page-1">
     <mxGraphModel dx="1957" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="V-hVtXNCJ0RljTgiBPyl-197" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="V-hVtXNCJ0RljTgiBPyl-197" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="-30" y="4200" width="210" height="570" as="geometry" />
         </mxCell>
         <mxCell id="V-hVtXNCJ0RljTgiBPyl-208" value="&lt;p style=&quot;line-height: 150%&quot;&gt;&lt;/p&gt;&lt;b style=&quot;font-size: 14px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/b&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#10739e;fillColor=#b1ddf0;" vertex="1" parent="1">
@@ -516,7 +516,7 @@
         <mxCell id="V-hVtXNCJ0RljTgiBPyl-209" value="静态图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="4520" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="V-hVtXNCJ0RljTgiBPyl-210" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="V-hVtXNCJ0RljTgiBPyl-210" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="-30" y="4795" width="210" height="145" as="geometry" />
         </mxCell>
         <mxCell id="V-hVtXNCJ0RljTgiBPyl-211" value="&lt;span style=&quot;font-size: 15px&quot;&gt;模型&amp;amp;参数存储&lt;/span&gt;&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;（训练部署场景）&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
