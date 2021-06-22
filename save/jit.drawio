@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-21T13:35:35.538Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="rF7e-zTV42SFCBHpJcGW" version="14.7.10" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-22T12:47:42.804Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="N2Vekqw5B-1WZlVP_wGI" version="14.7.10" type="github" pages="4">
   <diagram id="uEBJ2LFbih4l7-N4XgLi" name="Page-1">
     <mxGraphModel dx="1812" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1495,6 +1495,45 @@
         </mxCell>
         <mxCell id="fOg47dmw1aCrx5oBYlDT-13" value="数据" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;strokeWidth=1;fillColor=#ffcc99;" vertex="1" parent="1">
           <mxGeometry x="892" y="6430" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fOg47dmw1aCrx5oBYlDT-14" target="fOg47dmw1aCrx5oBYlDT-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fOg47dmw1aCrx5oBYlDT-14" target="fOg47dmw1aCrx5oBYlDT-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-14" value="&lt;font style=&quot;font-size: 15px&quot;&gt;paddle算子体系&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="8000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fOg47dmw1aCrx5oBYlDT-17" target="fOg47dmw1aCrx5oBYlDT-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fOg47dmw1aCrx5oBYlDT-17" target="fOg47dmw1aCrx5oBYlDT-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-17" value="&lt;font style=&quot;font-size: 15px&quot;&gt;外部算子&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="8077.53" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-18" value="&lt;span style=&quot;font-size: 15px&quot;&gt;原生算子&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="8080" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-19" value="&lt;font style=&quot;font-size: 15px&quot;&gt;C++算子&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="8160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fOg47dmw1aCrx5oBYlDT-20" target="fOg47dmw1aCrx5oBYlDT-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fOg47dmw1aCrx5oBYlDT-20" target="fOg47dmw1aCrx5oBYlDT-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-20" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Python算子&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="8160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-21" value="&lt;font style=&quot;font-size: 15px&quot;&gt;静态图&lt;br&gt;Python算子&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="8240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-22" value="&lt;font style=&quot;font-size: 15px&quot;&gt;动态图&lt;br&gt;Python算子&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="480" y="8240" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
