@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T12:47:42.804Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="N2Vekqw5B-1WZlVP_wGI" version="14.7.10" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-22T13:04:46.316Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="pUI8eiHz0GAJbQBDtfGH" version="14.7.10" type="github" pages="4">
   <diagram id="uEBJ2LFbih4l7-N4XgLi" name="Page-1">
-    <mxGraphModel dx="1812" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1506" dy="408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-197" y="8020" width="327" height="230" as="geometry" />
+        </mxCell>
         <mxCell id="pZal6IcKLXGHTKN8507M-109" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="-160" y="5796.5" width="1310" height="287" as="geometry" />
         </mxCell>
@@ -1502,7 +1505,7 @@
         <mxCell id="fOg47dmw1aCrx5oBYlDT-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fOg47dmw1aCrx5oBYlDT-14" target="fOg47dmw1aCrx5oBYlDT-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fOg47dmw1aCrx5oBYlDT-14" value="&lt;font style=&quot;font-size: 15px&quot;&gt;paddle算子体系&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-14" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Paddle算子体系&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="8000" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fOg47dmw1aCrx5oBYlDT-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fOg47dmw1aCrx5oBYlDT-17" target="fOg47dmw1aCrx5oBYlDT-19">
@@ -1534,6 +1537,41 @@
         </mxCell>
         <mxCell id="fOg47dmw1aCrx5oBYlDT-22" value="&lt;font style=&quot;font-size: 15px&quot;&gt;动态图&lt;br&gt;Python算子&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="480" y="8240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" edge="1" parent="1" source="fOg47dmw1aCrx5oBYlDT-30" target="fOg47dmw1aCrx5oBYlDT-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-100" y="8060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-30" value="&lt;font style=&quot;font-size: 15px&quot;&gt;模型训练&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="8040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" edge="1" parent="1" source="fOg47dmw1aCrx5oBYlDT-31" target="fOg47dmw1aCrx5oBYlDT-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-100" y="8216" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-31" value="&lt;font style=&quot;font-size: 15px&quot;&gt;模型推理&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-79.5" y="8200" width="120" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="fOg47dmw1aCrx5oBYlDT-32" target="fOg47dmw1aCrx5oBYlDT-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-32" value="&lt;font style=&quot;font-size: 15px&quot;&gt;模型保存&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="8120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" edge="1" parent="1" source="fOg47dmw1aCrx5oBYlDT-35" target="fOg47dmw1aCrx5oBYlDT-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" edge="1" parent="1" source="fOg47dmw1aCrx5oBYlDT-35" target="fOg47dmw1aCrx5oBYlDT-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fOg47dmw1aCrx5oBYlDT-35" value="&lt;font style=&quot;font-size: 15px&quot;&gt;模型加载&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry y="8120" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
