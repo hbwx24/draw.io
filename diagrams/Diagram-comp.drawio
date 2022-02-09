@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T06:52:22.408Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="p3p39C1zpDHb6Ta6FcLK" version="16.4.11" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-09T12:41:48.624Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="fdiaA-oSz31zBUSdx20U" version="16.4.11" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1865" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2692" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -89,6 +89,9 @@
             <mxPoint x="-171" y="75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="LlnP0XwbOhv8N2WKwCaH-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_dbhWTCsYHtgHH0JyTuk-36" target="_dbhWTCsYHtgHH0JyTuk-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_dbhWTCsYHtgHH0JyTuk-36" value="xla::XlaBuilder" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-520" y="-170" width="460" height="746" as="geometry">
             <mxRectangle x="90" y="600" width="160" height="26" as="alternateBounds" />
@@ -107,7 +110,7 @@
           <mxGeometry x="45" y="820" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_dbhWTCsYHtgHH0JyTuk-46" value="XlaOp" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-750" y="90" width="210" height="110" as="geometry">
+          <mxGeometry x="-910" y="60" width="210" height="110" as="geometry">
             <mxRectangle x="90" y="600" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -153,24 +156,24 @@
           <mxGeometry x="87" y="1280" width="690" height="390" as="geometry" />
         </mxCell>
         <mxCell id="ZLEvXDE0zLSAHLOMJoko-9" value="HloInstruction" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-770" y="1760" width="330" height="210" as="geometry">
+          <mxGeometry x="-1350" y="1700" width="510" height="1030" as="geometry">
             <mxRectangle x="90" y="600" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZLEvXDE0zLSAHLOMJoko-10" value="const std::string name_;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZLEvXDE0zLSAHLOMJoko-9" vertex="1">
-          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        <mxCell id="ZLEvXDE0zLSAHLOMJoko-10" value="  int unique_id_;  // Unique to this HloInstruction within a HloModule" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZLEvXDE0zLSAHLOMJoko-9" vertex="1">
+          <mxGeometry y="26" width="510" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZLEvXDE0zLSAHLOMJoko-11" value="HloInstruction* last_added_instruction_;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="ZLEvXDE0zLSAHLOMJoko-9" vertex="1">
-          <mxGeometry y="52" width="330" height="28" as="geometry" />
+        <mxCell id="ZLEvXDE0zLSAHLOMJoko-11" value="// Opcode for this instruction.&#xa;  HloOpcode opcode_;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="ZLEvXDE0zLSAHLOMJoko-9" vertex="1">
+          <mxGeometry y="52" width="510" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="ZLEvXDE0zLSAHLOMJoko-12" value="HloInstruction* fusion_instruction_;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="ZLEvXDE0zLSAHLOMJoko-9" vertex="1">
-          <mxGeometry y="80" width="330" height="28" as="geometry" />
+        <mxCell id="ZLEvXDE0zLSAHLOMJoko-12" value=" // Instruction operands.&#xa;  InstructionVector operands_;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="ZLEvXDE0zLSAHLOMJoko-9" vertex="1">
+          <mxGeometry y="100" width="510" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZLEvXDE0zLSAHLOMJoko-13" value="std::vector&lt;std::unique_ptr&lt;HloInstruction&gt;&gt; instructions_;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="ZLEvXDE0zLSAHLOMJoko-9" vertex="1">
-          <mxGeometry y="108" width="330" height="28" as="geometry" />
+        <mxCell id="ZLEvXDE0zLSAHLOMJoko-13" value="// The set of control predecessors of this instruction.&#xa;  // Note that the order of the instructions in the vector influences the order&#xa;  // computed in HloComputation::ComputeInstructionPostOrder, which may&#xa;  // influence the result of the compilation by changing the scheduling. We are&#xa;  // not sure if it matters.&#xa;  std::vector&lt;HloInstruction*&gt; control_predecessors_;&#xa;  // The users of this instruction. Users are HLOs where this instruction is an&#xa;  // operand. The vector users_ and the map user_map_ contain identical members.&#xa;  // The map enables fast membership testing and the vector enables fast, stable&#xa;  // iteration. The value in the map contains the index of the instruction in&#xa;  // the vector what enables fast removal.&#xa;  std::vector&lt;HloInstruction*&gt; users_;&#xa;  absl::flat_hash_map&lt;const HloInstruction*, int64_t&gt; user_map_;&#xa;  // The set of control successors of this instruction.&#xa;  std::vector&lt;HloInstruction*&gt; control_successors_;&#xa;  // The computation in which this instruction is contained.&#xa;  HloComputation* parent_ = nullptr;&#xa;  // Result shape of this instruction.&#xa;  Shape shape_;&#xa;  // The sharding, if one exists.&#xa;  // Uses std::shared_ptr to allow reuse of the same sharding object between&#xa;  // HloInstructions and other components as HloSharding can be very large for&#xa;  // many element tuples.&#xa;  std::shared_ptr&lt;const HloSharding&gt; sharding_;&#xa;  // Computations called by this instruction.&#xa;  std::vector&lt;HloComputation*&gt; called_computations_;&#xa;  // A trace instruction that consumes this instruction.&#xa;  //&#xa;  // Invariant: if trace_instruction_ != nullptr, trace_instruction has this as&#xa;  // an operand.&#xa;  HloInstruction* trace_instruction_ = nullptr;&#xa;  // The backend-specific configuration for how a backend should compile this&#xa;  // HLO. See the documentation on backend_config().&#xa;  string backend_config_;&#xa;  // Attributes passed from the frontend to give hints to the backend about&#xa;  // how to compile this HLO.&#xa;  // HLO -&gt; HLO transforms are expected to preserve these attributes on a&#xa;  // &quot;best effort&quot; basis only.&#xa;  // For example:&#xa;  //    x = const(10, frontend_attributes={x}&#xa;  //    y = const(10, frontend_attributes={y}&#xa;  //    z = add(x,y), frontend_attributes={y}&#xa;  // Could be simplified to:&#xa;  //    z&#39; = const(20), frontend_attributes={?}&#xa;  FrontendAttributes frontend_attributes_;&#xa;  // This field is assigned to true when backend_config_ is assigned to&#xa;  // a default configuration.&#xa;  bool is_default_config_ = false;&#xa;  // True if this instruction has already been detached from its user and&#xa;  // operands.&#xa;  bool cleaned_up_ = false;&#xa;  // String identifier for instruction.&#xa;  string name_;&#xa;  // Metadata for debugging.&#xa;  OpMetadata metadata_;&#xa;  // The number of partitions per outer dimension (listed in order from&#xa;  // outer-most dimension first).&#xa;  std::vector&lt;int64_t&gt; outer_dimension_partitions_;&#xa;  // Intrusive flag used by HloComputation, whether this instruction has&#xa;  // been marked as dead.&#xa;  bool marked_as_dead_;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="ZLEvXDE0zLSAHLOMJoko-9" vertex="1">
+          <mxGeometry y="140" width="510" height="880" as="geometry" />
         </mxCell>
         <mxCell id="ZLEvXDE0zLSAHLOMJoko-14" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="ZLEvXDE0zLSAHLOMJoko-9" vertex="1">
-          <mxGeometry y="136" width="330" height="10" as="geometry" />
+          <mxGeometry y="1020" width="510" height="10" as="geometry" />
         </mxCell>
         <mxCell id="ZLEvXDE0zLSAHLOMJoko-15" value="HloModule" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-30" y="1760" width="400" height="210" as="geometry">
@@ -322,6 +325,9 @@
           <mxGeometry y="100" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LlnP0XwbOhv8N2WKwCaH-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LlnP0XwbOhv8N2WKwCaH-26" target="LlnP0XwbOhv8N2WKwCaH-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LlnP0XwbOhv8N2WKwCaH-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LlnP0XwbOhv8N2WKwCaH-26" target="LlnP0XwbOhv8N2WKwCaH-182">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LlnP0XwbOhv8N2WKwCaH-26" value="Node" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -748,6 +754,20 @@
         </mxCell>
         <mxCell id="LlnP0XwbOhv8N2WKwCaH-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LlnP0XwbOhv8N2WKwCaH-168" target="LlnP0XwbOhv8N2WKwCaH-174">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LlnP0XwbOhv8N2WKwCaH-182" value="class Generic : public Node" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1365" y="3030" width="310" height="114" as="geometry">
+            <mxRectangle x="90" y="600" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LlnP0XwbOhv8N2WKwCaH-184" value="LowerFn lower_fn_;&#xa;  xla::hash_t hash_seed_;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="LlnP0XwbOhv8N2WKwCaH-182">
+          <mxGeometry y="26" width="310" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LlnP0XwbOhv8N2WKwCaH-185" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="LlnP0XwbOhv8N2WKwCaH-182">
+          <mxGeometry y="80" width="310" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="LlnP0XwbOhv8N2WKwCaH-187" value="&lt;div style=&quot;color: rgb(247, 241, 255); background-color: rgb(34, 34, 34); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt;Generic IR Node implementation &lt;/span&gt;&lt;span style=&quot;color: #fc618d&quot;&gt;for&lt;/span&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt; nodes which can simply be described by a&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt;specific OpKind &lt;/span&gt;&lt;span style=&quot;color: #fc618d&quot;&gt;and&lt;/span&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt; a lowering function&lt;/span&gt;&lt;span style=&quot;color: #8b888f&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt; IR nodes carrying metadata should&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #fc618d&quot;&gt;not&lt;/span&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt; be &lt;/span&gt;&lt;span style=&quot;color: #fc618d&quot;&gt;using&lt;/span&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #bab6c0 ; font-style: italic&quot;&gt;this&lt;/span&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ad4e6 ; font-style: italic&quot;&gt;class&lt;/span&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt; (and have the metadata captured by the LowerFn)&lt;/span&gt;&lt;span style=&quot;color: #8b888f&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ad4e6&quot;&gt;but&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt;they should instead create a dedicated IR node. Doing the former would limit&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt;IR introspection.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1360" y="2818" width="550" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
