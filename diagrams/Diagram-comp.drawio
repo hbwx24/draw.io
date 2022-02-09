@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T11:51:43.981Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="xqBBj5lbZ5cKJxJijEzh" version="16.4.11" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-09T06:52:22.408Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="p3p39C1zpDHb6Ta6FcLK" version="16.4.11" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1865" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1865" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -68,7 +68,7 @@
           <mxGeometry y="80" width="210" height="10" as="geometry" />
         </mxCell>
         <mxCell id="_dbhWTCsYHtgHH0JyTuk-31" value="LoweringContext" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-210" y="240" width="440" height="324" as="geometry">
+          <mxGeometry x="-20" y="241" width="440" height="324" as="geometry">
             <mxRectangle x="90" y="600" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -84,19 +84,24 @@
         <mxCell id="_dbhWTCsYHtgHH0JyTuk-35" value="xla::XlaBuilder* builder() { return &amp;builder_; }" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_dbhWTCsYHtgHH0JyTuk-31" vertex="1">
           <mxGeometry y="222" width="440" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_dbhWTCsYHtgHH0JyTuk-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_dbhWTCsYHtgHH0JyTuk-36" target="_dbhWTCsYHtgHH0JyTuk-35" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="_dbhWTCsYHtgHH0JyTuk-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_dbhWTCsYHtgHH0JyTuk-36" target="_dbhWTCsYHtgHH0JyTuk-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-171" y="75" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_dbhWTCsYHtgHH0JyTuk-36" value="xla::XlaBuilder" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-559" y="420" width="290" height="110" as="geometry">
+          <mxGeometry x="-520" y="-170" width="460" height="746" as="geometry">
             <mxRectangle x="90" y="600" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="LlnP0XwbOhv8N2WKwCaH-179" value="string name_;  // Name to use for the built computation.&#xa;  // The next sequential ID for every instruction/computation contained within&#xa;  // this computation.&#xa;  int64_t next_id_ = 0;&#xa;  // The first error encountered while building the computation.&#xa;  // This is OK until the first error is encountered.&#xa;  Status first_error_;&#xa;  // The saved stack trace from the point at which the first error occurred.&#xa;  tensorflow::SavedStackTrace first_error_backtrace_;&#xa;  // The instructions of this computation.&#xa;  std::vector&lt;HloInstructionProto&gt; instructions_;&#xa;  // An cache for the HloInstructionProto shapes, to avoid recreating Shape&#xa;  // objects from protos and to support the GetShapePtr() API.&#xa;  std::vector&lt;std::unique_ptr&lt;Shape&gt;&gt; instruction_shapes_;&#xa;  // Dynamic parameter configuration of this computation.&#xa;  DynamicParameterBinding dynamic_parameter_binding_;&#xa;  // Holds the input/output alias information populated by the SetUpAlias() API.&#xa;  std::vector&lt;InputOutputAlias&gt; input_output_aliases_;&#xa;  // A map from XlaOp::Handle to the index in the instructions_ vector where the&#xa;  // instruction is held.&#xa;  absl::flat_hash_map&lt;int64_t, int64_t&gt; handle_to_index_;&#xa;  // Track imported instructions by their computation id and the position in&#xa;  // their computation&#39;s instruction list.&#xa;  struct ImportedInstruction {&#xa;    int64_t computation_id;&#xa;    int64_t instruction_index;&#xa;  };&#xa;  absl::flat_hash_map&lt;int64_t, ImportedInstruction&gt; handle_to_imported_index_;&#xa;  // The embedded computations used by this computation. Each computation was&#xa;  // the entry computation of some XlaComputation, the key is the unique id of&#xa;  // that XlaComputation.&#xa;  std::map&lt;int64_t, HloComputationProto&gt; embedded_;&#xa;  // The unique parameter numbers.&#xa;  absl::flat_hash_set&lt;int64_t&gt; parameter_numbers_;&#xa;  // The metadata to attach to each op. This is structured as a &quot;modal&quot;-like&#xa;  // operation, in order to simplify client code (and not sprinkle this metadata&#xa;  // throughout the TensorFlow op kernel implementations).&#xa;  OpMetadata metadata_;&#xa;  // A temporary metadata that will only be applied to the next op created.&#xa;  absl::optional&lt;OpMetadata&gt; one_shot_metadata_;&#xa;  // Sharding for this operator. This is structured as a &quot;model&quot;-like operation,&#xa;  // in order to simplify client code, similar to metadata_.&#xa;  absl::optional&lt;OpSharding&gt; sharding_;&#xa;  // Mode bit that indicates whether to die when a first error is encountered.&#xa;  bool die_immediately_on_error_ = false;&#xa;  XlaBuilder* parent_builder_{nullptr};&#xa;  FrontendAttributes frontend_attributes_;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_dbhWTCsYHtgHH0JyTuk-36">
+          <mxGeometry y="20" width="460" height="670" as="geometry" />
+        </mxCell>
         <mxCell id="_dbhWTCsYHtgHH0JyTuk-39" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="_dbhWTCsYHtgHH0JyTuk-36" vertex="1">
-          <mxGeometry y="20" width="290" height="30" as="geometry" />
+          <mxGeometry y="690" width="460" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_dbhWTCsYHtgHH0JyTuk-41" value="  StatusOr&lt;XlaComputation&gt; Build" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_dbhWTCsYHtgHH0JyTuk-36" vertex="1">
-          <mxGeometry y="50" width="290" height="26" as="geometry" />
+          <mxGeometry y="720" width="460" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_dbhWTCsYHtgHH0JyTuk-43" value="&lt;div style=&quot;color: rgb(247 , 241 , 255) ; background-color: rgb(34 , 34 , 34) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; line-height: 22px&quot;&gt;&lt;span style=&quot;color: #7bd88f&quot;&gt;ExecuteComputation&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="45" y="820" width="160" height="30" as="geometry" />
