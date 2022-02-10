@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-10T07:33:13.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="bscvrlqM_4I3HKBPUQf0" version="16.4.11" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-10T09:33:34.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="2wqmlfQOFDbDtAWcyXMN" version="16.4.11" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2354" dy="3210" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2529" dy="3428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -75,7 +75,7 @@
         <mxCell id="_dbhWTCsYHtgHH0JyTuk-32" value="  xla::XlaBuilder builder_;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_dbhWTCsYHtgHH0JyTuk-31" vertex="1">
           <mxGeometry y="26" width="440" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_dbhWTCsYHtgHH0JyTuk-33" value="  Device device_;&#xa;  std::vector&lt;xla::ComputationClient::DataPtr&gt; parameters_;&#xa;  std::unordered_map&lt;xla::ComputationClient::Data::OpaqueHandle, Parameter&gt;&#xa;      parameters_map_;&#xa;  std::vector&lt;size_t&gt; parameter_sequence_;&#xa;  std::vector&lt;xla::XlaOp&gt; root_tuple_;&#xa;  OutputMap&lt;xla::XlaOp&gt; emitted_outputs_;&#xa;  Util::EmissionMap emit_status_;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="_dbhWTCsYHtgHH0JyTuk-31" vertex="1">
+        <mxCell id="_dbhWTCsYHtgHH0JyTuk-33" value="  Device device_;&#xa;  std::vector&lt;xla::ComputationClient::DataPtr&gt; parameters_;&#xa;  std::unordered_map&lt;xla::ComputationClient::Data::OpaqueHandle, Parameter&gt;&#xa;      parameters_map_;&#xa;  std::vector&lt;size_t&gt; parameter_sequence_;&#xa;  std::vector&lt;xla::XlaOp&gt; root_tuple_;&#xa;// 输出与xla::XlaOp&#xa;  OutputMap&lt;xla::XlaOp&gt; emitted_outputs_;&#xa;  Util::EmissionMap emit_status_;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="_dbhWTCsYHtgHH0JyTuk-31" vertex="1">
           <mxGeometry y="52" width="440" height="152" as="geometry" />
         </mxCell>
         <mxCell id="_dbhWTCsYHtgHH0JyTuk-34" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="_dbhWTCsYHtgHH0JyTuk-31" vertex="1">
@@ -325,9 +325,6 @@
           <mxGeometry y="100" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LlnP0XwbOhv8N2WKwCaH-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LlnP0XwbOhv8N2WKwCaH-26" target="LlnP0XwbOhv8N2WKwCaH-23" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LlnP0XwbOhv8N2WKwCaH-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LlnP0XwbOhv8N2WKwCaH-26" target="LlnP0XwbOhv8N2WKwCaH-182" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LlnP0XwbOhv8N2WKwCaH-26" value="Node" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -651,6 +648,9 @@
         <mxCell id="LlnP0XwbOhv8N2WKwCaH-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LlnP0XwbOhv8N2WKwCaH-133" target="LlnP0XwbOhv8N2WKwCaH-129" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="RD1T-AmYN6bjSsgPqCFJ-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LlnP0XwbOhv8N2WKwCaH-133" target="RD1T-AmYN6bjSsgPqCFJ-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LlnP0XwbOhv8N2WKwCaH-133" value="Node" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1510" y="340" width="450" height="390" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
@@ -754,17 +754,6 @@
         </mxCell>
         <mxCell id="LlnP0XwbOhv8N2WKwCaH-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LlnP0XwbOhv8N2WKwCaH-168" target="LlnP0XwbOhv8N2WKwCaH-174" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LlnP0XwbOhv8N2WKwCaH-182" value="class Generic : public Node" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1365" y="3030" width="310" height="114" as="geometry">
-            <mxRectangle x="90" y="600" width="160" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LlnP0XwbOhv8N2WKwCaH-184" value="LowerFn lower_fn_;&#xa;  xla::hash_t hash_seed_;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="LlnP0XwbOhv8N2WKwCaH-182" vertex="1">
-          <mxGeometry y="26" width="310" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="LlnP0XwbOhv8N2WKwCaH-185" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="LlnP0XwbOhv8N2WKwCaH-182" vertex="1">
-          <mxGeometry y="80" width="310" height="10" as="geometry" />
         </mxCell>
         <mxCell id="LlnP0XwbOhv8N2WKwCaH-187" value="&lt;div style=&quot;color: rgb(247, 241, 255); background-color: rgb(34, 34, 34); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt;Generic IR Node implementation &lt;/span&gt;&lt;span style=&quot;color: #fc618d&quot;&gt;for&lt;/span&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt; nodes which can simply be described by a&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt;specific OpKind &lt;/span&gt;&lt;span style=&quot;color: #fc618d&quot;&gt;and&lt;/span&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt; a lowering function&lt;/span&gt;&lt;span style=&quot;color: #8b888f&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt; IR nodes carrying metadata should&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #fc618d&quot;&gt;not&lt;/span&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt; be &lt;/span&gt;&lt;span style=&quot;color: #fc618d&quot;&gt;using&lt;/span&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #bab6c0 ; font-style: italic&quot;&gt;this&lt;/span&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ad4e6 ; font-style: italic&quot;&gt;class&lt;/span&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt; (and have the metadata captured by the LowerFn)&lt;/span&gt;&lt;span style=&quot;color: #8b888f&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ad4e6&quot;&gt;but&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt;they should instead create a dedicated IR node. Doing the former would limit&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f7f1ff&quot;&gt;IR introspection.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=13;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1360" y="2818" width="550" height="210" as="geometry" />
@@ -1066,6 +1055,17 @@
         </mxCell>
         <mxCell id="RD1T-AmYN6bjSsgPqCFJ-140" value="&lt;div style=&quot;background-color: rgb(34 , 34 , 34) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; line-height: 22px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;font color=&quot;#7bd88f&quot;&gt;Vlue构造函数&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1680" y="-216" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RD1T-AmYN6bjSsgPqCFJ-143" value="class Generic : public Node" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1654" y="180" width="310" height="114" as="geometry">
+            <mxRectangle x="90" y="600" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RD1T-AmYN6bjSsgPqCFJ-144" value="LowerFn lower_fn_;&#xa;  xla::hash_t hash_seed_;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="RD1T-AmYN6bjSsgPqCFJ-143">
+          <mxGeometry y="26" width="310" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="RD1T-AmYN6bjSsgPqCFJ-145" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="RD1T-AmYN6bjSsgPqCFJ-143">
+          <mxGeometry y="80" width="310" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
