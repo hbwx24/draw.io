@@ -580,6 +580,33 @@
             <mxPoint x="540" y="2520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="45_28ugQ_Ss6l7HPSdLf-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="45_28ugQ_Ss6l7HPSdLf-207" target="45_28ugQ_Ss6l7HPSdLf-208">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="45_28ugQ_Ss6l7HPSdLf-207" value="pytorch 导出的ONNX模型" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="45_28ugQ_Ss6l7HPSdLf-217" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="45_28ugQ_Ss6l7HPSdLf-208" target="45_28ugQ_Ss6l7HPSdLf-216">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="45_28ugQ_Ss6l7HPSdLf-208" value="图优化" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="205.5" y="2805" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="45_28ugQ_Ss6l7HPSdLf-214" value="Conv+BN融合&lt;div&gt;等价算子替换等&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="205.5" y="2870" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45_28ugQ_Ss6l7HPSdLf-221" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="45_28ugQ_Ss6l7HPSdLf-216" target="45_28ugQ_Ss6l7HPSdLf-220">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="45_28ugQ_Ss6l7HPSdLf-216" value="PTQ量化" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="345" y="2805" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="45_28ugQ_Ss6l7HPSdLf-218" value="&lt;ul style=&quot;white-space-collapse: preserve; overflow-wrap: break-word; margin: 0px 0px 16px; padding: 0px; box-sizing: border-box; list-style: none; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);&quot; class=&quot;ul-level-0&quot;&gt;&lt;li style=&quot;overflow-wrap: break-word; margin: 0px 0px 4px; padding: 0px 0px 0px 18px; list-style: none; box-sizing: border-box; position: relative;&quot;&gt;&lt;span style=&quot;overflow-wrap: break-word; box-sizing: border-box; list-style: inherit;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;统计量化方法；&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;overflow-wrap: break-word; margin: 0px 0px 4px; padding: 0px 0px 0px 18px; list-style: none; box-sizing: border-box; position: relative;&quot;&gt;&lt;span style=&quot;overflow-wrap: break-word; box-sizing: border-box; list-style: inherit;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;迭代量化方法；Cross-layer equalization 等。&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2873" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="45_28ugQ_Ss6l7HPSdLf-220" value="供编译器使用的ONNX模型" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="490" y="2800" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
